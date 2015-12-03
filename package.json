@@ -1,0 +1,25 @@
+{
+  "name": "fast-sync",
+  "main": "./lib/fast-sync",
+  "version": "0.1.0",
+  "description": "Find occurance of selected text without using find dialog",
+  "activationCommands": {
+    "atom-text-editor": [
+      "fast-sync:find-next",
+      "fast-sync:find-previous",
+      "fast-sync:find-next-casesensitive",
+      "fast-sync:find-previous-casesensitive"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mark-hahn/fast-sync.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">1.0.0"
+  },
+  "dependencies": {
+    "sub-atom": "*"
+  }
+}
